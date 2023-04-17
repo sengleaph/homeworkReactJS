@@ -5,9 +5,94 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.first-slide img{
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  
+
+}
+.container-fluid img{
+  width: 50px;
+}
+.container-fluid{
+  background-color: rgba(244, 244, 244, 0.916);
+  position:static;
+  
+}
+.navbar-brand{
+  font-family: 'Kantumruy Pro', sans-serif, Important;
+}
+.card1{
+  text-align: center;
+  display: block;
+  /* background-color: black; */
+}
+.card1 h4{
+  color: rgb(24, 24, 255)
+}
+.card2{
+  text-align: center;
+  display: block;
+  
+  /* background-color: black; */
+}
+.card2 h4{
+  color: rgb(24, 24, 255)
+}
+.card2 h1{
+  color:whitesmoke;
+  padding-top: 10px;
+}
+.card2 h3{
+  color:whitesmoke;
+}
+.card2 h2{
+  color:whitesmoke;
+}
+.card-apple{
+  display: flex;
+  justify-content: space-evenly;
+}
+.apple-card{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+}
+.airport{
+  text-align: center;
+}
+.iPad{
+  text-align: center;
+}
+.iMac{
+  text-align: center;
+  color: aliceblue;
+}
+.M2-pro {
+  text-align: center;
+  color: aliceblue;
+}
+.apple-produce h5{
+  color: rgb(28, 28, 171);
+}
+.iPad h1{
+  padding-top: 10px;
+}
+.airport h1{
+  padding-top: 10px;
+}
+.iMac h1{
+  padding-top: 10px;
+}
+.M2-pro {
+  padding-top: 10px;
 }
